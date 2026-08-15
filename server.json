@@ -1,11 +1,21 @@
 {
-  "ip": "163.245.200.69",
+  "//": "Configuracao publica do OriginsTale. O launcher le este arquivo a cada abertura.",
+
+  "//ip": "Aceita nome de dominio: o launcher resolve para IPv4 antes de gravar no game.ini, porque o cliente so entende IP numerico. Com o nome aqui, trocar de VPS vira uma alteracao de DNS em vez de redistribuir cliente.",
+  "ip": "jogo.originstale.com",
   "port": 10006,
+
   "status": "online",
   "message": "Servidor online. Bom jogo!",
-  "siteUrl": "",
-  "manifestUrl": "http://163.245.200.69/atualizacao/manifesto.json",
+
+  "//siteUrl": "Passa pela Cloudflare (nuvem laranja): e HTML, cabe bem no proxy.",
+  "siteUrl": "https://originstale.com",
+
+  "//manifestUrl": "Aponta para jogo.originstale.com, que NAO passa pela Cloudflare. Sao 5,4 GB de arquivos de jogo, e o plano gratuito nao e para distribuir volume assim. A integridade nao depende do transporte: cada arquivo do manifesto traz o proprio SHA-256, e o launcher confere.",
+  "manifestUrl": "http://jogo.originstale.com/atualizacao/manifesto.json",
+
+  "//launcherVersao": "Comparacao por igualdade: publicar um numero antigo faz os clientes voltarem para aquela versao.",
   "launcherVersao": "1.1.0",
-  "launcherUrl": "http://163.245.200.69/download/Launcher-1.1.0.exe",
+  "launcherUrl": "http://jogo.originstale.com/download/Launcher-1.1.0.exe",
   "launcherSha256": "738A4CB00BD94D4BA6F5CD5218BC6A72BA99F04148A3CA9E7349A822F2FC35EF"
 }
