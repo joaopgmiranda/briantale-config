@@ -3,5 +3,6 @@
   "port": 10006,
   "status": "online",
   "message": "Servidor online. Bom jogo!",
-  "siteUrl": ""
+  "siteUrl": "",
+  "manifestUrl": "http://163.245.200.69/atualizacao/manifesto.json"
 }
