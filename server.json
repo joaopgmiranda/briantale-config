@@ -4,5 +4,8 @@
   "status": "online",
   "message": "Servidor online. Bom jogo!",
   "siteUrl": "",
-  "manifestUrl": "http://163.245.200.69/atualizacao/manifesto.json"
+  "manifestUrl": "http://163.245.200.69/atualizacao/manifesto.json",
+  "launcherVersao": "1.1.0",
+  "launcherUrl": "http://163.245.200.69/download/Launcher-1.1.0.exe",
+  "launcherSha256": "738A4CB00BD94D4BA6F5CD5218BC6A72BA99F04148A3CA9E7349A822F2FC35EF"
 }
