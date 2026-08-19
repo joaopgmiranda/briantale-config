@@ -5,7 +5,7 @@
   "message": "Servidor online. Bom jogo!",
   "siteUrl": "https://originstale.com",
   "manifestUrl": "http://jogo.originstale.com/atualizacao/manifesto.json",
-  "launcherVersao": "1.1.1",
-  "launcherUrl": "http://jogo.originstale.com/download/Launcher-1.1.1.exe",
-  "launcherSha256": "F311DC054C89772ADD5A8F1435D073D0E4A91A611D598D44FE2AC11126B5375D"
+  "launcherVersao": "1.1.2",
+  "launcherUrl": "http://jogo.originstale.com/download/Launcher-1.1.2.exe",
+  "launcherSha256": "17F27B4A81ECB019D8906BAB5DB6705544DB3E804A72014991EFC8F0C50BFFD3"
 }
