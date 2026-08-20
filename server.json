@@ -1,11 +1,11 @@
 {
-  "ip": "jogo.originstale.com",
-  "port": 10006,
-  "status": "online",
-  "message": "Servidor online. Bom jogo!",
-  "siteUrl": "https://originstale.com",
-  "manifestUrl": "http://jogo.originstale.com/atualizacao/manifesto.json",
-  "launcherVersao": "1.1.2",
-  "launcherUrl": "http://jogo.originstale.com/download/Launcher-1.1.2.exe",
-  "launcherSha256": "17F27B4A81ECB019D8906BAB5DB6705544DB3E804A72014991EFC8F0C50BFFD3"
-}
+    "ip": "jogo.originstale.com",
+    "port": 10006,
+    "status": "online",
+    "message": "Servidor online. Bom jogo!",
+    "siteUrl": "https://originstale.com",
+    "manifestUrl": "http://jogo.originstale.com/atualizacao/manifesto.json",
+    "launcherVersao": "1.1.3",
+    "launcherUrl": "http://jogo.originstale.com/download/Launcher-1.1.3.exe",
+    "launcherSha256": "23EF0CE54C06A6C6CC92B6D393A4C2B6EB09DE79CF13AB06EE2AD816B14647FC"
+  }
